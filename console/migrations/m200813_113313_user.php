@@ -19,7 +19,7 @@ class m200813_113313_user extends Migration
             'updated' => $this->integer()->unsigned()
         ]);
 
-        $this->insert('{{%admin}}', [
+        $this->insert('{{%user}}', [
             'name' => 'User',
             'email' => 'user@user.com',
             'password' => '$2y$13$LGvOO/1RpEjkATUiov1gqeJFLeRj2deWl5CyTAJSlxaAwmSTc1Qoq', // password
